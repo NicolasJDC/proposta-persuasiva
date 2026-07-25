@@ -486,7 +486,7 @@ function Fechamento({ p }: { p: Proposal }) {
   );
 }
 
-const RENDERERS: Record<SectionId, (props: { p: Proposal }) => JSX.Element> = {
+const RENDERERS: Record<SectionId, (props: { p: Proposal }) => React.ReactElement> = {
   diagnostico: Diagnostico,
   metodo: Metodo,
   valuestack: ValueStack,
