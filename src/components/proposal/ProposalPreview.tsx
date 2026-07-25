@@ -1,3 +1,4 @@
+import type * as React from "react";
 import { ShieldCheck } from "lucide-react";
 import {
   fmtBRL,
